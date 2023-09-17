@@ -1,0 +1,73 @@
+1 collec
+
+
+
+
+n7adad l objectif / type li nekhdem fih/ type model
+
+
+
+                                               | --> label encoder () (2 classes avec le code ascii) te9bel ken type array
+SKlearn--> preprocessing |--> ordinal encoding | --> ordinal encoder() (2 classes avec le code ascii) 
+                         |
+                         |--> one hot encoding--> (plus que 2 classes) na3tihom 0 1 2.. khaterhom ma3andehomch signification
+                                                  bel tableau ili s7i7a na3teha 1 leb9iaya 0
+                        
+
+
+
+data frame te9bil liste
+.sort_index() tnadhamha bel indice
+
+data.head() ===> traja3lik l 5 1er lignes
+data.tail()
+
+data.columns.to_list()
+data.info() ==> les colonnes et ses dtype w le nombre de cases non null
+data.dtypes ==> les types de chaque colonnes
+.value_counts() ==> te7seblik 9adeh men mara
+.plot.pie() ==> courbe mdawra ta3 il stat
+isna() ==> Finds not-a-number values
+.sum() ==> Returns the sum of the values in the specified axis
+sns.heatmap(   )
+.drop() ==> itayach
+axis=1 3al colone =0 3al ligne
+.describe() ==> les info (stat) | unclude='all'//='0' 
+T ==>Turns rows into columns and columns into rows
+.kde() ==> densite
+.unique()
+.show()
+.title()
+.hist() ==> histogram
+sns.pairplot()
+sns.boxplot()
+sns.countplot()
+plt.figure(figsize=(,))
+
+
+
+
+
+type de model classification-regression(reduction ta3 valeur numerq)(t5araj float/int/..)
+                            -
+                            -     
+
+
+ligne regression hiya l courbe l moy bin les pts lkol (droite)
+ili tet3ada bel ligne hiya l y test weli tmathalta hiya l y prit donc l erreur= yprit-ytest
+MAE=1/n sum(yprit-ytest)  | MSE=1/2n sum(yprit-ytest)
+
+l data li 3ana dima tit3alam 3al train
+il train t7adhar fel arbre
+xtrain tkharajli datafram
+
+
+.dotpridict xtest??????
+
+decision tree classification===>  predicti fel 0 wel 1
+              regression===> predicti valeur continue / 
+
+ki yebda l data ta3i 3andeha defaut sghir na3mal standardization
+
+matrice de confusion
+           confedilte
